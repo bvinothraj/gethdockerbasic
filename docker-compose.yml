@@ -1,0 +1,9 @@
+version: '2.1'
+services:
+  node1:
+    build: .
+    container_name: gethdockerbasic
+    volumes:
+      - ./node1:/gethdockerbasicnode1
+    ports:
+      - "8501:8501"
