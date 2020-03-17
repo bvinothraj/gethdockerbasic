@@ -1,10 +1,10 @@
 # gethdockerbasic
 A basic single-node ethereum that runs in docker.  
-The network is configured (see genesis.json) to run PoA (alias clique) consensus algorithm.  
-There is only one validator (or sealer) configured for this network.  
-Blocks are generated every 10 seconds  
-To attach to the node: *geth attach http://localhost:8502*  
-Data will persist on restarts as the blockchain data is attached to a volume  
+  * The network is configured (see genesis.json) to run PoA (alias clique) consensus algorithm.  
+  * There is only one validator (or sealer) configured for this network.  
+  * Blocks are generated every 10 seconds  
+  * To attach to the node: *geth attach http://localhost:8502*  
+  * Data will persist on restarts as the blockchain data is attached to a volume  
 
 ## Description
 *Dockerfile* The docker file that uses ethereum/client-go image to create a custom image  
